@@ -1,0 +1,12 @@
+<center><div id="{{ include.id }}" style="width: device-width; height: {{ include.height }};"></div></center>
+<script>
+	var map = L.map('{{ include.id }}').setView([{{ include.lat }},{{ include.lon }}], {{ include.zoom }});
+
+    L.tileLayer('{{ include.tileurl }}',{
+		attribution:
+    '{{ include.attribution }}',
+	}).addTo(map);
+	{% if include.marker %}
+	L.marker([{{ include.marker }}]).addTo(map);
+	{% endif %}
+</script>
