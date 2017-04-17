@@ -1,5 +1,5 @@
 # Site settings
-title:       Дикарт RU OSM
+title:       Дикарт
 email:       sovredruosm@mail.ru
 author:      dickartruosm
 description: "Совместные онлайн картопати в русскоязычном сообществе OSM"
@@ -12,7 +12,7 @@ twitter:
   username: dickartruosm
 logo: /image.png
 social:
-  name: Dick Art
+  name: Дикарт
   links:
     - https://t.me/dickartruosm
 defaults:
@@ -25,7 +25,7 @@ defaults:
         path: /image.png
         height: 512
         width: 512
-lang: en_US
+lang: ru_RU
 
 # Google services
 google_verification:
