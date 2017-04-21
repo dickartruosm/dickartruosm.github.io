@@ -1,11 +1,11 @@
 ---
 layout:     post
-title:      Дикарт, 15-?? апреля
+title:      Дикарт, 15-22 апреля
 date:       2017-04-14
 summary:    Рабочий посёлок Колывань (Новосибирская область)
 leaflet:    true
 ---
-Всем привет, новой целью нами был выбран р.п. [Колывань](https://www.openstreetmap.org/way/128252438)
+Всем привет, новой целью нами был выбран р.п. [Колывань](https://www.openstreetmap.org/relation/7168072)
 ## Полезные ссылки
 * [Wikipedia](https://ru.wikipedia.org/wiki/%D0%9A%D0%BE%D0%BB%D1%8B%D0%B2%D0%B0%D0%BD%D1%8C_(%D0%9D%D0%BE%D0%B2%D0%BE%D1%81%D0%B8%D0%B1%D0%B8%D1%80%D1%81%D0%BA%D0%B0%D1%8F_%D0%BE%D0%B1%D0%BB%D0%B0%D1%81%D1%82%D1%8C))
 * [Сайт администрации](http://www.admkolyvan.ru/)
@@ -13,8 +13,14 @@ leaflet:    true
 * [Плагин для смещений снимков](https://wiki.openstreetmap.org/wiki/RU:Imagery_Offset_Database) (Пожалуйста, используйте MAPBOX с правильным смещением)
 * [Url для Rectified Image в josm с landuse](http://mapwarper.net/maps/wms/20057?request=GetMap&version=1.1.1&styles=&format=image/png&srs={proj}&exceptions=application/vnd.ogc.session.inimage&width={width}&height={height}&BBOX={bbox}&) [Она же в HD](/files/kolivan_landuse.jpg)
 
-## Прогресс
+## Итоги
 ### До
 ![before](/images/kolivan.png)
 ### После
 {% include leafletmap.html id="kolivan" height="600px" tileurl="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" lat=55.3077 lon=82.7344 zoom=14 attribution="Map data &copy; <a href=\"https://www.openstreetmap.org/copyright\">OpenStreetMap</a> contributors" %}
+### Diff
+{% include leafletmap.html id="kolivandiff" height="600px" tileurl="https://api.mapbox.com/styles/v1/mryadro/cj1rt26pc001s2ro0r7usr4ln/tiles/256/{z}/{x}/{y}@2x?access_token=pk.eyJ1IjoibXJ5YWRybyIsImEiOiJjaXEwcGh4cG4wMDByaHZua3pmeGJsdDNlIn0.0nicdPcXloJQ3QGw-H7I9w" lat=55.3077 lon=82.7344 zoom=14 attribution="Map data &copy; <a href=\"https://www.openstreetmap.org/copyright\">OpenStreetMap</a> contributors, Imagery &copy; <a href=\"http://mapbox.com\">Mapbox</a>" %}
+[Overpass](http://overpass-turbo.eu/s/owv)
+
+## Спасибо!
+Всем кто участвовал! _Gum4eg, #daf, freeExec, Владимир К, literan, dbf, siberiano, MrYadro, чат [ruosm](https://t.me/ruosm)_
