@@ -23,4 +23,4 @@ leaflet:    true
 [Overpass](http://overpass-turbo.eu/s/owv)
 
 ## Спасибо!
-Всем кто участвовал! _Gum4eg, #daf, freeExec, Владимир К, literan, dbf, siberiano, MrYadro, чат [ruosm](https://t.me/ruosm)_
+Всем кто участвовал! _Gum4eg, #daf, freeExec, Владимир К, literan, dbf, siberiano, langoor, полМаши, xscvxc, RSergei, Семён Семёнов, Hind, MrYadro, чат [ruosm](https://t.me/ruosm)_
